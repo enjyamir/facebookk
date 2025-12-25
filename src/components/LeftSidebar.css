@@ -1,0 +1,118 @@
+.left-sidebar {
+    width: 280px;
+    padding: 16px 8px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    background-color: #F0F2F5;
+  }
+  
+  .sidebar-section {
+    margin-bottom: 16px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+  }
+  
+  .section-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #050505;
+  }
+  
+  .see-all-link {
+    color: #1877F2;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .see-all-link:hover {
+    text-decoration: underline;
+  }
+  
+  .watch-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 0 8px;
+  }
+  
+  .watch-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .watch-item:hover {
+    background-color: #E4E6EB;
+  }
+  
+  .watch-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #1877F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .watch-label {
+    font-size: 13px;
+    color: #050505;
+    text-align: center;
+  }
+  
+  .group-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .group-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .group-item:hover {
+    background-color: #E4E6EB;
+  }
+  
+  .group-thumbnail {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #1877F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .group-name {
+    font-size: 14px;
+    color: #050505;
+    flex: 1;
+  }
+  

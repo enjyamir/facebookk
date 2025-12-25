@@ -1,0 +1,115 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0 16px;
+    height: 56px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .facebook-logo {
+    width: 40px;
+    height: 40px;
+    background-color: #1877F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .confirm-btn {
+    background-color: #1877F2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #166FE5;
+  }
+  
+  .navbar-center {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .nav-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #65676B;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-icon:hover {
+    background-color: #F0F2F5;
+  }
+  
+  .nav-icon.active {
+    color: #1877F2;
+    border-bottom: 3px solid #1877F2;
+    border-radius: 0;
+  }
+  
+  .nav-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .icon-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #E4E6EB;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .icon-btn:hover {
+    background-color: #D8DADF;
+  }
+  
+  .user-avatar-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1877F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+  }
+  

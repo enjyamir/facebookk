@@ -1,0 +1,20 @@
+.home-page {
+    background-color: #F0F2F5;
+    min-height: 100vh;
+    padding-top: 56px;
+  }
+  
+  .main-content {
+    margin-left: 280px;
+    margin-right: 320px;
+    padding: 16px 32px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 300px;
+    padding-right: 340px;
+  }
+  
+  .feed-container {
+    max-width: 500px;
+    margin: 0 auto;}
