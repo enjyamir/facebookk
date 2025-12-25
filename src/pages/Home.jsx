@@ -1,10 +1,10 @@
-import Navbar from '../components/Navbar/Navbar';
-import LeftSidebar from '../components/LeftSidebar/LeftSidebar';
-import RightSidebar from '../components/RightSidebar/RightSidebar';
-import Stories from '../components/Stories/Stories';
-import CreatePost from '../components/CreatePost/CreatePost';
-import PostCard from '../components/PostCard/PostCard';
+import Navbar from '../components/Navbar';
+import LeftSidebar from '../components/LeftSidebar';
+import RightSidebar from '../components/RightSidebar';
+import Stories from '../components/Stories';
 import './Home.css';
+import CreatePost from '../components/CreatePost'; 
+import Postcard from '../components/Postcard';
 
 const Home = () => {
   return (
